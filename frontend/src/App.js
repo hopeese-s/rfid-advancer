@@ -16,7 +16,7 @@ import {
   Alert
 } from '@mui/material';
 
-const API_URL = 'http://192.168.1.176:4000'; // เปลี่ยนเป็น IP backend จริง
+const API_URL = 'https://rfid-advancer.onrender.com'; // เปลี่ยนเป็น IP backend จริง
 
 function LatestList({ type, onBack }) {
   const [queue, setQueue] = useState([]);
